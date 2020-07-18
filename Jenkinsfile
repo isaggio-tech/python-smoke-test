@@ -1,6 +1,6 @@
 // Jenkinsfile (Declarative Pipeline)
 pipeline {
-    agent { label 'python' } }
+    agent { label 'python' }
     stages {
         stage('Version Check') {
             steps {
